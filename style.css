@@ -1,0 +1,169 @@
+/* Dropdown Button */
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.cover{
+    max-width: 100% !important;
+    height: auto;
+    width: auto;
+
+}
+/*.footer {
+    background: #3e3f40;
+}*/
+/*footer*/
+footer.no-margin-footer {
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+   background-color: black;
+}
+
+@media (min-width: 992px) {
+  footer {
+    text-align: left;
+    margin-top: 30px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+}
+
+footer .about-widget img {
+  max-width: 273px;
+  margin-bottom: 45px;
+}
+
+footer h4 {
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: whitesmoke;
+  margin-bottom: 30px;
+  margin-top: 45px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+@media (min-width: 992px) {
+  footer h4 {
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+footer ul.info li {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+footer ul.info li a {
+  font-size: 15px;
+  color: #7a7a7a;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+footer ul.info li a:hover {
+  color: #0083d3;
+}
+
+footer ul.info li:last-child {
+  margin-bottom: 0px;
+}
+
+footer ul.social-links li {
+  display: block;
+  margin-bottom: 20px;
+}
+
+footer ul.social-links li a {
+  font-size: 15px;
+  color: #7a7a7a;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+footer ul.social-links li a svg {
+  margin-right: 3px;
+}
+
+footer ul.social-links li a:hover {
+  color: #0083d3;
+}
+
+footer ul.social-links li:last-child {
+  margin-bottom: 0px;
+}
+
+footer .sub-footer {
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+
+footer .sub-footer p a {
+  color: #ff565b;
+}
+
+footer .sub-footer a.scroll-to-top {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  font-size: 15px;
+  color: #ff565b;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+@media (min-width: 992px) {
+footer .sub-footer a.scroll-to-top {
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: #7a7a7a;
+  }
+}
+
+footer .sub-footer a.scroll-to-top svg {
+  margin-left: 3px;
+}
+
+footer .sub-footer a.scroll-to-top:hover {
+  color: #0083d3;
+}
+
+/* style.css for maps *?
+/* Always set the map height explicitly to define the size of the div
+              * element that contains the map. */
+#map {
+  height: 300px;
+  width:100%;
+}
+      
+      
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: "Roboto", "sans-serif";
+  line-height: 30px;
+  padding-left: 10px;
+}
