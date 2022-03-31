@@ -9,6 +9,11 @@ body {
     width: auto;
 
 }
+.section1 {
+    background-image: linear-gradient(135deg, rgba(54, 165, 187, 1), rgba(255,255,255,1));
+    height: 300px;
+}
+
 /*.footer {
     background: #3e3f40;
 }*/

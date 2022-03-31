@@ -26,16 +26,16 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar1" >
-                <a class="navbar-brand " href="#">Swing Beats logo</a>
+                <a class="navbar-brand " href="#"><img src="img/logo.png" class="img-responsive" alt="logo" style=" height: 40px; margin-top: -5px;"></a>
                   <ul class="navbar-nav ms-auto">
                       <li class="nav-item active">
-                          <a class="nav-link" href="#" id="home">Home</a>
+                          <a class="nav-link" href="#" id="overview">Overview</a>
                       </li>
                       <li>
-                          <a class="nav-link" href="#Plan" id="planNav">Plan</a>
+                          <a class="nav-link" href="#" id="dashboard">Dashboard</a>
                       </li>
                       <li>
-                          <a class="nav-link" href="#contactUs" id="contactNav">Contact Us</a>
+                          <a class="nav-link" href="#" id="login">Login</a>
                       </li>
                   </ul>
             </div>
@@ -44,23 +44,26 @@
     <div class="col-12">
     <img src="img/banner.jpeg" class="cover">
     </div>
+    <div>
+      <section class="section1">
+        <h1>Hello world</h1>
+      </section>
+    </div>
     <script>
     window.onscroll = function() {scrollFunction()};
     function scrollFunction() {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         
         document.getElementById("navbar").style.background = "#000000";
-        document.getElementById("home").style.color = "#FFFFFF";
-        document.getElementById("planNav").style.color = "#FFFFFF";
-        document.getElementById("contactNav").style.color = "#FFFFFF";
-        document.getElementById("logo").style.color = "#FFFFFF";
+        document.getElementById("overview").style.color = "#FFFFFF";
+        document.getElementById("dashboard").style.color = "#FFFFFF";
+        document.getElementById("login").style.color = "#FFFFFF";
       } else {
        
         document.getElementById("navbar").style.background = "none";
-        document.getElementById("home").style.color = "#000000";
-        document.getElementById("logo").style.color = "#000000";
-        document.getElementById("planNav").style.color = "#000000";
-        document.getElementById("contactNav").style.color = "#000000";
+        document.getElementById("overview").style.color = "#000000";
+        document.getElementById("dashboard").style.color = "#000000";
+        document.getElementById("login").style.color = "#000000";
 
       }
   }
@@ -74,8 +77,7 @@
           <div class="row">
               <div class="col-lg-4">
                   <div class="about-widget">
-<!--                       <h2> Bay Area Rapid Transit (BART)</h2>
- -->                      <img src="bart1.png" alt="image banner">
+                  <img src="img/square.png" alt="SwingBeats" style="height: 100px">
                       <p>Stay Connected</p>
                   </div>
               </div>
@@ -90,7 +92,7 @@
                       <ul class="info">
                           <li><a href="#">510-464-6000</a></li>
                           <li><a href="#">510-464-7000</a></li>
-                          <li><a href="mailto:nbarttic@bart.gov">BART</a></li>
+                          <li><a href="mailto:nbarttic@bart.gov">SwingBeats</a></li>
                       </ul>
                   </div>
               </div>
@@ -130,7 +132,7 @@
                   <div class="sub-footer">
                       <div class="row">
                           <div class="col-lg-6">
-                              <p>Copyright © 2022 San Francisco Bay Area Rapid Transit District. All Rights Reserved. 
+                              <p>Copyright © 2022 SwingBeats All Rights Reserved. 
                             </p>
                           </div>
                           <div class="col-lg-6">
